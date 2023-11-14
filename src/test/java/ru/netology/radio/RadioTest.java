@@ -129,6 +129,7 @@ class RadioTest {
         radio.pressVolumeDown();
         assertEquals(2, radio.getCurrentVolume());
     }
+
     @Test
     public void shouldCreateStationsWithLimits() {
         Radio radio = new Radio(1);
